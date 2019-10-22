@@ -1,0 +1,147 @@
+/* IMAGES */
+
+html {
+	background-color: #908f8f;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #908f8f;
+	min-height: 100vh;
+	line-height: 1.2;
+	max-width: 800px;
+	margin: 0 auto;
+}
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	background-color: rgba(85, 85, 85, 0.75);
+	height: 4em;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	z-index: 1;
+}
+nav div {
+	margin: 0 2.5%;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s;
+	padding-top: 0.375em;
+	display: block;
+	font-size: 1.75em;
+}
+
+nav a:hover {
+	color: purple;
+}
+
+
+header, main, footer {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: hidden;
+	position: relative;
+}
+
+header {
+	padding: 0.5em;
+	padding-top: 0;
+	position: fixed;
+	min-height: 4em;
+	max-width: calc(800px - 1em);
+	width: 100%;
+}
+
+header img {
+	width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner {
+	background-image: url(img/Banner.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 56vh;
+}
+
+.about-section {
+	width: 100%;
+	padding: 4em 0.5em 50vh;
+	background: grey;
+}
+
+.Details-section {
+	width: 100%;
+	padding: 4em 0.5em 20vh;
+	background: grey;
+}
+
+.Contact-section {
+	width: 100%;
+	padding: 4em 0.5em 4vh;
+	background: grey;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(50% - 1em);
+
+}
+.images{
+	margin: 0;
+	padding: 0.5em;
+	width: calc(50% - 1em);
+}
+
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+
+main {
+	max-width: calc(880px + 1em);
+	display: flex;
+	flex-wrap: wrap;
+	top: 4em;
+	background: #908f8f;
+
+}
+
+.home main {
+	top: 56vh;
+}
+
+
+
+/*
+
+@media (min-width: 1200px) {
+	html {
+		background: blue;
+	}
+	}*/
+
