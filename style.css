@@ -80,19 +80,19 @@ header img {
 
 .about-section {
 	width: 100%;
-	padding: 4em 0.5em 50vh;
+	padding: 4em 0.5em 0vh;
 	background: grey;
 }
 
 .Details-section {
 	width: 100%;
-	padding: 4em 0.5em 20vh;
+	padding: 1em 0.5em 0vh;
 	background: grey;
 }
 
 .Contact-section {
 	width: 100%;
-	padding: 4em 0.5em 4vh;
+	padding: 1em 0.5em 4vh;
 	background: grey;
 }
 
